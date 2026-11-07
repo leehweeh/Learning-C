@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 
 int main()
 {
@@ -7,13 +7,16 @@ int main()
     printf("========================");
     printf("      CALCULATOR          ");
     printf("========================\n\n");
-
+    
+   //asks the user to input the first number//
     printf("Enter first number: ");
     scanf("%lf", &num1);
-
+    
+    //asks the user to choose an operator//
     printf("Enter an operator(+, -, *, /): ");
     scanf(" %c", &operator);
-
+    
+     //asks the user to input the second number//
     printf("Enter the second number: ");
     scanf("%lf", &num2);
 
